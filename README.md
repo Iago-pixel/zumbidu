@@ -28,47 +28,26 @@ O objetivo principal da plataforma é dar visibilidade aos empreendedores, comer
 
 ## 🧭 Metodologia de Projetação
 
-O desenvolvimento do **ZUMBIDU** segue a metodologia de projetação estruturada pela **Prof.ª Dr.ª Silvia Aparecida de Oliveira de Alencar Matos**, composta por **7 etapas**, aliada à estruturação em HTML e CSS orientada pelo **Prof. Dr. Fabiano Papaiz**.
-
-Atualmente, a equipe encontra-se na **5ª Etapa (Montar)**.
+O desenvolvimento do **ZUMBIDU** segue a metodologia de projetação estruturada pela **Prof.ª Dr.ª Silvia Aparecida de Oliveira de Alencar Matos**, composta por **7 etapas**, aliada à estruturação em HTML e CSS orientada pelo **Prof. Dr. Fabiano Papaiz** que nesse primeiro momento tem como objetivo entrear um protótipo do sistema futuro.
 
 ### Acompanhamento das Etapas
 
-- [x] **Etapa 1: RECONHECER** *(🟢 Concluído — Coleta de informações)*
-- [x] **Etapa 2: ALINHAVAR** *(🟢 Concluído — Organização e análise)*
-- [x] **Etapa 3: ARREMATAR** *(🟢 Concluído — Interpretação, conceituação e estratégia)*
-- [x] **Etapa 4: DESENHAR** *(🟢 Concluído — Criação de alternativas)*
-- [ ] **Etapa 5: MONTAR** *(🚧 Em andamento — Experimentação e prototipação)*
-- [ ] **Etapa 6: AVALIAR** *(🟡 Pendente — Avaliação e escolha)*
-- [ ] **Etapa 7: ENTREGAR** *(🟡 Pendente — Entrega do sistema)*
+- **Etapa 1: RECONHECER** 
+- **Etapa 2: ALINHAVAR** 
+- **Etapa 3: ARREMATAR** 
+- **Etapa 4: DESENHAR** 
+- **Etapa 5: MONTAR** 
+- **Etapa 6: AVALIAR**
+- **Etapa 7: ENTREGAR** 
 
 ---
 
-## ✨ Funcionalidades Planejadas (MVP)
-
-- [ ] **Catálogo de Serviços:** Listagem organizada por categorias.
-- [ ] **Perfil do Empreendedor:** Página dedicada com fotos, descrição, horários de funcionamento e localização.
-- [ ] **Contato Direto:** Botão de redirecionamento rápido para WhatsApp ou redes sociais do comerciante.
-- [ ] **Busca e Filtros:** Pesquisa rápida por nome do produto, serviço ou categoria.
-- [ ] **Área de Cadastro:** Fluxo simplificado para que moradores de Vila Assis possam registrar seus negócios.
-
----
-
-## 🛠️ Tecnologias Utilizadas
+## 🛠️ Tecnologias Utilizadas na prototipação
 
 - **Design & Prototipação:** Affinity e Figma
 - **Front-end:** HTML5 e CSS3 *(demais tecnologias a definir)*
 - **Back-end & Banco de Dados:** *(a definir)*
 - **Versionamento:** Git & GitHub
-
----
-
-## 🎨 Etapa Atual: MONTAR (Experimentação e Prototipação)
-
-Nesta fase, estamos transformando as alternativas desenhadas em protótipos navegáveis, estruturando a arquitetura de informação, os fluxos de navegação e a identidade visual da vitrine digital para validação com a comunidade:
-
-- 🔗 **Link do Protótipo (Figma):** `[Insira o link aqui quando disponível]`
-- 📄 **Documentação das Etapas Anteriores:** `[Insira o link para a pasta/drive se houver]`
 
 ---
 
@@ -78,19 +57,19 @@ Projeto desenvolvido pelos estudantes:
 
 | Nome | Contato / GitHub |
 | :--- | :--- |
-| **Integrante 1** | [@usuario](https://github.com/) |
-| **Integrante 2** | [@usuario](https://github.com/) |
-| **Integrante 3** | [@usuario](https://github.com/) |
-| **Integrante 4** | [@usuario](https://github.com/) |
-| **Integrante 5** | [@usuario](https://github.com/) |
-| **Integrante 6** | [@usuario](https://github.com/) |
-| **Integrante 7** | [@usuario](https://github.com/) |
+| **Ana Letícia Vidal** | [@oliveiravidal-blip](https://github.com/oliveiravidal-blip) |
+| **Guilherme da Silva Cruz** | [@cruzguilherme1-rpg](https://github.com/cruzguilherme1-rpg) |
+| **Iago Vinícius Souza** | [@Iago-pixel](https://github.com/Iago-pixel) |
+| **José Vine Nunes** | [@ze-vine](https://github.com/ze-vine) |
+| **Maria Clara Batista** | [@vianabatista04](https://github.com/vianabatista04) |
+| **Pedro Messias Dias** | [@Pthax200](https://github.com/Pthax2000) |
+| **Wheverton Cruz** | [@usuario](https://github.com/) |
 
 ---
 
 ## 🎓 Orientação Acadêmica
 
-- **Orientação:** Prof.ª Dr.ª Silvia Aparecida de Oliveira de Alencar Matos e Prof. Dr. Fabiano Papaiz
+- **Orientação:** Prof.ª Dr.ª Silvia Aparecida de Oliveira de Alencar Matos e Prof. Dr. Fabiano Papaiz - Prototipação e Desing
 - **Instituição / Curso:** Instituto Federal do Rio Grande do Norte (IFRN) — Tecnologia em Análise e Desenvolvimento de Sistemas (TADS)
 - **Ano:** 2026
 
