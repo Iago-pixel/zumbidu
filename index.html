@@ -1,19 +1,113 @@
 <!DOCTYPE html>
-<html>
-    <head>
-      <meta charset="UTF-8">
-    </head>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ZUMBIDU — Vitrine Digital Comunitária</title>
+</head>
 <body>
 
   <header>
-    <h1>Zumbidu</h1>
-    
+    <div>
+      <h1>ZUMBIDU</h1>
+      <p>Vitrine Digital Comunitária da Vila Assis-RN</p>
+    </div>
 
+
+    <nav>
+      <ul>
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#clientes">Feedbacks</a></li>
+        <li><a href="#destaques">Profissionais</a></li>
+        <li><a href="#sobre">Sobre Nós</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+
+    <div>
+      <a href="#cadastrar">Me juntar à colmeia</a>
+    </div>
   </header>
 
   <main>
-    <h2>Conteúdo Principal</h2>
-    <p>adicionando o header e o footer de aocrdo com o o desing figma desenvolvido</p>
+
+    <section id="inicio">
+      <h2>Conectando moradores e serviços locais</h2>
+      <p>
+        Encontre comerciantes, prestadores de serviços, produtores e empreendedores autônomos dentro do próprio bairro da Vila Assis-RN.
+      </p>
+      
+      <form>
+        <label for="busca">O que você está procurando?</label>
+        <input type="text" id="busca" name="busca" placeholder="Ex: Eletricista, Encanador, Mercadinho...">
+        <button type="submit">Buscar</button>
+      </form>
+    </section>
+
+    <section id="categorias">
+      <h3>Categorias de Serviços Locais</h3>
+      <ul>
+        <li>
+          <h4> Elétrica & Manutenção</h4>
+          <p>Eletricistas e consertos residenciais.</p>
+        </li>
+        <li>
+          <h4>Hidráulica & Reparos</h4>
+          <p>Encanadores e pequenos reparos.</p>
+        </li>
+        <li>
+          <h4> Pintura & Reformas</h4>
+          <p>Pintores e pedreiros da comunidade.</p>
+        </li>
+        <li>
+          <h4> Comércio & Alimentação</h4>
+          <p>Mercadinhos, quitandas e produtores locais.</p>
+        </li>
+        <li>
+          <h4> Beleza & Estética</h4>
+          <p>Cabeleireiros, barbeiros e manicures.</p>
+        </li>
+      </ul>
+    </section>
+
+    <section id="destaques">
+      <h3>Profissionais e Negócios em Destaque</h3>
+      
+      <article>
+        <h4>Oficina do Zé — Serviços Elétricos</h4>
+        <p>Atendimento residencial e comercial na Vila Assis.</p>
+        <p><strong>Contato:</strong> (84) 99999-0000</p>
+        <a href="#detalhes">Ver mais detalhes</a>
+      </article>
+
+      <article>
+        <h4>Maria Costuras & Consertos</h4>
+        <p>Ajustes de roupas, confecção de capas e artesanato local.</p>
+        <p><strong>Contato:</strong> (84) 98888-1111</p>
+        <a href="#detalhes">Ver mais detalhes</a>
+      </article>
+    </section>
+
+    <section id="sobre">
+      <h3>Sobre a Plataforma ZUMBIDU</h3>
+      <p>
+        O <strong>ZUMBIDU</strong> é uma plataforma de vitrine digital criada para dar visibilidade aos trabalhadores autônomos e pequenos comerciantes, promovendo o fortalecimento socioeconômico e a inclusão digital da nossa comunidade.
+      </p>
+      
+      <h4>Nossos Objetivos:</h4>
+      <ul>
+        <li><strong>Fomentar a economia local:</strong> Incentivar o consumo dentro do próprio bairro.</li>
+        <li><strong>Visibilidade:</strong> Oferecer um espaço digital simples para divulgação de trabalhos.</li>
+        <li><strong>Facilitar a conexão:</strong> Aproximar quem precisa de quem oferece serviços na região.</li>
+      </ul>
+    </section>
+
+    <section id="cadastrar">
+      <h3>Você mora na Vila Assis e oferece algum serviço?</h3>
+      <p>Cadastre seu negócio gratuitamente e seja encontrado pelos seus vizinhos!</p>
+      <button type="button">Cadastrar meu negócio</button>
+    </section>
+
   </main>
 
   <footer class ="footer">
