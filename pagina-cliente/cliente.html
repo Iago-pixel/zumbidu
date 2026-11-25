@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zumbidu - Clientes</title>
+    
+    <!-- Favicon na mesma pasta do HTML -->
+    <link rel="icon" type="image/png" href="favamarela.png">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    
+    <!-- Arquivo CSS -->
+    <link rel="stylesheet" href="cliente.css">
+</head>
+<body>
+
+    <!-- 1. CABEÇALHO FLUTUANTE -->
+    <header class="header-wrapper">
+        <nav class="navbar-flutuante">
+            <div class="nav-pill-principal">
+                <a href="index.html" class="link-logo">
+                    <img src="horizontal.png" alt="Logo Zumbidu" class="logo-nav">
+                </a>
+                <ul class="nav-links">
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="servicos.html">Categorias</a></li>
+                    <li><a href="cliente.html" class="ativo">Clientes</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                </ul>
+            </div>
+            
+            <a href="login.html" class="nav-pill-login">
+                <img src="favpreta.png" alt="Ícone Colmeia" class="icone-login">
+                <span>Login</span>
+            </a>
+        </nav>
+    </header>
+
+    <!-- 2. CONTEÚDO PRINCIPAL -->
+    <main class="main-clientes">
+        
+        <!-- Título e Selo da Abelha -->
+        <section class="topo-secao">
+            <div class="topo-textos">
+                <h1>Quem já contratou na colmeia aprova!</h1>
+                <p>Histórias reais de clientes que encontraram profissionais pontuais e com preços acessíveis.</p>
+            </div>
+            <div class="box-selo">
+                <img src="abelharajada.png" alt="Abelha Zumbidu" class="selo-abelha">
+            </div>
+        </section>
+
+        <!-- Grade com os 4 Cards de Avaliação -->
+        <section class="grid-avaliacoes">
+            
+            <!-- Card 1: Tháric -->
+            <article class="card-cliente">
+                <div>
+                    <div class="card-header">
+                        <div class="perfil-cliente">
+                            <img src="Tha.png" alt="Avatar Tháric" class="avatar-abelha">
+                            <div>
+                                <div class="nome-cliente">Tháric</div>
+                                <span class="tag-servico">Elétrica</span>
+                            </div>
+                        </div>
+                        <span class="nota-badge">★ 5.0</span>
+                    </div>
+                    <p class="texto-avaliacao">
+                        "O trabalho do Sérgio foi rápido e eficiente! Além do serviço, ainda me deu diversas dicas sobre a elétrica do apto e do que devo evitar fazer..."
+                    </p>
+                </div>
+                <div class="data-avaliacao">26/11/2021</div>
+            </article>
+
+            <!-- Card 2: Pedro -->
+            <article class="card-cliente">
+                <div>
+                    <div class="card-header">
+                        <div class="perfil-cliente">
+                            <img src="abelhadif.png" alt="Avatar Pedro" class="avatar-abelha">
+                            <div>
+                                <div class="nome-cliente">Pedro</div>
+                                <span class="tag-servico">Montagem</span>
+                            </div>
+                        </div>
+                        <span class="nota-badge">★ 5.0</span>
+                    </div>
+                    <p class="texto-avaliacao">
+                        "Pontual, educado, rápido - tudo que se espera de um profissional. Fez um excelente trabalho montando dois armários de banheiro aqui em..."
+                    </p>
+                </div>
+                <div class="data-avaliacao">24/11/2021</div>
+            </article>
+
+            <!-- Card 3: Marcio -->
+            <article class="card-cliente">
+                <div>
+                    <div class="card-header">
+                        <div class="perfil-cliente">
+                            <img src="marcio.png" alt="Avatar Marcio" class="avatar-abelha">
+                            <div>
+                                <div class="nome-cliente">Márcio</div>
+                                <span class="tag-servico">Reparo</span>
+                            </div>
+                        </div>
+                        <span class="nota-badge">★ 5.0</span>
+                    </div>
+                    <p class="texto-avaliacao">
+                        "Gostei muito do serviço. Foi pontual, veio equipado, soube esclarecer minhas dúvidas e achar solução pra uma questão que surgiu na hora..."
+                    </p>
+                </div>
+                <div class="data-avaliacao">24/11/2021</div>
+            </article>
+
+            <!-- Card 4: Ricardo -->
+            <article class="card-cliente">
+                <div>
+                    <div class="card-header">
+                        <div class="perfil-cliente">
+                            <img src="abelhadif.png" alt="Avatar Ricardo" class="avatar-abelha">
+                            <div>
+                                <div class="nome-cliente">Ricardo</div>
+                                <span class="tag-servico">Hidráulica</span>
+                            </div>
+                        </div>
+                        <span class="nota-badge">★ 5.0</span>
+                    </div>
+                    <p class="texto-avaliacao">
+                        "Super acessível e ágil! Nos ajudou quando estava desesperada com o cano vazando água. Foi muito rápido em atender o pedido e chegar na..."
+                    </p>
+                </div>
+                <div class="data-avaliacao">23/11/2021</div>
+            </article>
+
+        </section>
+
+        <!-- Banner de Chamada -->
+        <section class="banner-convite">
+            <div>
+                <h2>Precisando de uma mãozinha hoje?</h2>
+                <p>Encontre um profissional pertinho de você com jeitinho regional.</p>
+            </div>
+            <a href="servicos.html" class="btn-zumbidu">Explorar Serviços</a>
+        </section>
+
+    </main>
+
+    <!-- 3. RODAPÉ -->
+    <footer class="faixa-rodape">
+        <p>© 2026 Zumbidu - Conectando talentos e clientes.</p>
+    </footer>
+
+</body>
+</html>
