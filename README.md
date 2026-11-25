@@ -63,7 +63,7 @@ Projeto desenvolvido pelos estudantes:
 | **José Vine Nunes** | [@ze-vine](https://github.com/ze-vine) |
 | **Maria Clara Batista** | [@vianabatista04](https://github.com/vianabatista04) |
 | **Pedro Messias Dias** | [@Pthax200](https://github.com/Pthax2000) |
-| **Wheverton Cruz** | [@usuario](https://github.com/) |
+| **Wheverton Cruz** | [@whe_filho](https://github.com/) |
 
 ---
 
