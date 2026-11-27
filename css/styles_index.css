@@ -1,0 +1,340 @@
+/* ================= RESET E CONFIGURAÇÕES GERAIS ================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "MinhaFonte";
+    src: url(fonte/Alegreya.ttf) format('truetype');
+}
+
+html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    background-color: #fcfbf7;
+    font-family: 'MinhaFonte', serif;
+    color: #1a1a1a;
+}
+
+.page-wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+/* Elementos de mídia */
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+img,
+video {
+    height: auto;
+}
+
+/* Formulários e botões */
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+
+textarea {
+    resize: vertical;
+}
+
+/* Links, listas, títulos e tabelas */
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Acessibilidade: respeita preferência por movimento reduzido */
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        scroll-behavior: auto !important;
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+}
+
+/* ================= CABEÇALHO ================= */
+.navbar-container {
+    margin-top: 32px;
+    width: 1160px;
+    max-width: 95vw;
+    filter: drop-shadow(0px 8px 20px rgba(0, 0, 0, 0.05));
+}
+
+.navbar {
+    position: relative;
+    width: 100%;
+    height: 88px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 65px 0 95px;
+}
+
+.navbar-bg {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    pointer-events: none;
+}
+
+.nav-main {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    gap: 85px;
+}
+
+/* Logo horizontal */
+.logo {
+    display: flex;
+    align-items: center;
+    transition: opacity 0.2s;
+}
+
+.logo:hover {
+    opacity: 0.85;
+}
+
+.logo img {
+    height: 38px;
+    width: auto;
+}
+
+/* Links do menu */
+.nav-links {
+    display: flex;
+    gap: 78px;
+}
+
+.nav-links a {
+    color: #1a1a1a;
+    font-size: 1.2rem;
+    font-weight: 500;
+    transition: opacity 0.2s;
+}
+
+.nav-links a:hover {
+    opacity: 0.7;
+}
+
+/* ================= SUBMENU DE CATEGORIAS ================= */
+.has-dropdown {
+    position: relative;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%) translateY(10px);
+    background-color: #fbf0c9;
+    min-width: 190px;
+    padding: 10px 0;
+    border-radius: 20px;
+    box-shadow: 0px 10px 24px rgba(0, 0, 0, 0.08);
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: opacity 0.25s ease, transform 0.25s ease, visibility 0.25s;
+    z-index: 10;
+}
+
+.dropdown-menu::before {
+    content: "";
+    position: absolute;
+    top: -16px;
+    left: 0;
+    width: 100%;
+    height: 16px;
+}
+
+.has-dropdown:hover .dropdown-menu,
+.has-dropdown:focus-within .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+    transform: translateX(-50%) translateY(14px);
+}
+
+.dropdown-menu li {
+    width: 100%;
+}
+
+.dropdown-menu a {
+    display: block;
+    padding: 10px 22px;
+    font-size: 1.05rem;
+    color: #1a1a1a;
+    text-align: center;
+    transition: background-color 0.2s;
+}
+
+.dropdown-menu a:hover {
+    background-color: rgba(224, 177, 27, 0.22);
+    opacity: 1;
+}
+
+/* ================= BOTÃO LOGIN ================= */
+.nav-login {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    color: #1a1a1a;
+    font-family: 'MinhaFonte', serif;
+    font-weight: 700;
+    font-size: 1.15rem;
+    transition: transform 0.2s;
+}
+
+.nav-login:hover {
+    transform: scale(1.03);
+}
+
+.nav-login img {
+    height: 46px;
+    width: auto;
+}
+
+/* ================= CONTEÚDO PRINCIPAL (HERO) ================= */
+.hero-container {
+    flex: 1;
+    width: 100%;
+    max-width: 1220px;
+    padding: 40px 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.hero-card {
+    background-color: #29384d;
+    color: #ffffff;
+    border-radius: 42px;
+    padding: 58px 52px;
+    max-width: 630px;
+    box-shadow: 0px 14px 28px rgba(0, 0, 0, 0.16);
+}
+
+.hero-subtitle {
+    display: block;
+    color: #e0b11b;
+    font-family: 'MinhaFonte', serif;
+    font-size: 0.92rem;
+    font-weight: 700;
+    letter-spacing: 0.4px;
+    margin-bottom: 34px;
+}
+
+.hero-card h1 {
+    font-size: 2.55rem;
+    line-height: 1.25;
+    font-weight: 700;
+    margin-bottom: 38px;
+}
+
+.hero-card p {
+    font-size: 1.08rem;
+    line-height: 1.65;
+    color: #f1f3f5;
+}
+
+.hero-illustration {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-illustration img {
+    width: 100%;
+    max-width: 460px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.hero-illustration img:hover {
+    transform: translateY(-6px) scale(1.02);
+}
+
+/* ================= RODAPÉ ================= */
+.site-footer {
+    width: 100%;
+    background-color: #2c0344;
+    color: #e2e8f0;
+    padding: 20px 55px;
+    font-family: 'MinhaFonte', serif;
+    font-size: 0.95rem;
+}
+
+.footer-content {
+    max-width: 1220px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.footer-links {
+    display: flex;
+    gap: 24px;
+}
+
+.footer-links a:hover{
+    text-decoration: underline;
+}
